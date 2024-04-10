@@ -16,6 +16,9 @@ exibirTextoNaTela('p', 'Insira um número de 1 a 10');
 }
 exibirTextoInicial()
 
+
+
+
 function verificarChute(){
     let chute = document.querySelector('input').value;
     console.log(chute == numeroAleatorio)
